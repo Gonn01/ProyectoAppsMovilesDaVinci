@@ -1,4 +1,3 @@
-// HomeFragment.java
 package com.example.proyectoappsmovilesdavinci.ui.fragments;
 
 import android.os.Bundle;
