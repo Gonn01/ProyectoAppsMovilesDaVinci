@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/tab_home" />
+    <item
+        android:id="@+id/nav_financial_entities"
+        android:icon="@drawable/ic_financial_entities"
+        android:title="@string/tab_financial_entities" />
+</menu>
