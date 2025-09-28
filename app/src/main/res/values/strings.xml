@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Proyecto Apps Moviles Da Vinci</string>
+    <string name="login_title">Login demo</string>
+    <string name="login_button">Entrar</string>
 </resources>
