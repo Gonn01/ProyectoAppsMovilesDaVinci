@@ -1,4 +1,4 @@
-package com.example.proyectoappsmovilesdavinci;
+package com.example.proyectoappsmovilesdavinci.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.proyectoappsmovilesdavinci.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -31,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 if(usuario.equals("admin") && password.equals("1234")){
                     // Si está bien, va al MainActivity
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
                     startActivity(intent);
                     finish();
                 } else {
