@@ -14,16 +14,15 @@ import com.example.proyectoappsmovilesdavinci.R;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText etUsuario, etPassword;
-    private Button btnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login); // este es el XML que vas a crear
+        setContentView(R.layout.activity_login);
 
         etUsuario = findViewById(R.id.etUsuario);
         etPassword = findViewById(R.id.etPassword);
-        btnLogin = findViewById(R.id.btnLogin);
+        Button btnLogin = findViewById(R.id.btnLogin);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +31,6 @@ public class LoginActivity extends AppCompatActivity {
                 String password = etPassword.getText().toString().trim();
 
                 if(usuario.equals("admin") && password.equals("1234")){
-                    // Si está bien, va al MainActivity
                     Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
                     startActivity(intent);
                     finish();
