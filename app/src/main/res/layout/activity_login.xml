@@ -7,6 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".ui.LoginActivity">
 
+    <ImageView
+        android:id="@+id/logoLogin"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logopagos"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="24dp"/>
+
     <EditText
         android:id="@+id/etUsuario"
         android:layout_width="0dp"
