@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
                 String password = etPassword.getText().toString().trim();
 
                 if(usuario.equals("admin") && password.equals("1234")){
-                    // Si está bien, va al MainActivity
+                    // Si esta ok, va al dashboard
                     Intent intent = new Intent(LoginActivity.this,DashboardActivity.class);
                     startActivity(intent);
                     finish();
